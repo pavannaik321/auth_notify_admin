@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const adminAPI = axios.create({
-  baseURL: "http://localhost:5001/api", // your backend base URL
+  baseURL: "https://auth-notify-backend.onrender.com/api", // your backend base URL
   headers: {
     "Content-Type": "application/json",
   },
